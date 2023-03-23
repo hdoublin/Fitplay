@@ -16,6 +16,33 @@
 		0343D2AB29CC087E00CD6AE5 /* FitplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2AA29CC087E00CD6AE5 /* FitplayTests.swift */; };
 		0343D2B529CC087E00CD6AE5 /* FitplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2B429CC087E00CD6AE5 /* FitplayUITests.swift */; };
 		0343D2B729CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */; };
+		0343D2CD29CC099A00CD6AE5 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2CC29CC099A00CD6AE5 /* Login.swift */; };
+		0343D2CF29CC09A600CD6AE5 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2CE29CC09A600CD6AE5 /* Signup.swift */; };
+		0343D2D129CC0A0100CD6AE5 /* GettingStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */; };
+		0343D2D529CC0ABF00CD6AE5 /* AboutYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */; };
+		0343D2D729CC0AE100CD6AE5 /* ProfilePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */; };
+		0343D2D929CC0B1400CD6AE5 /* ConnectWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */; };
+		0343D2DB29CC0B3100CD6AE5 /* ConnectMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */; };
+		0343D2DD29CC0B5000CD6AE5 /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DC29CC0B5000CD6AE5 /* Premium.swift */; };
+		0343D2DF29CC0B7700CD6AE5 /* Promotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */; };
+		0343D2E129CC0C0000CD6AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E029CC0C0000CD6AE5 /* HomeView.swift */; };
+		0343D2E329CC0DD500CD6AE5 /* YourClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */; };
+		0343D2E529CC0DF300CD6AE5 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E429CC0DF300CD6AE5 /* TypeView.swift */; };
+		0343D2E729CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */; };
+		0343D2E929CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */; };
+		0343D2F029CC159B00CD6AE5 /* ChatHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2EF29CC159B00CD6AE5 /* ChatHistoryView.swift */; };
+		0343D2F229CC15A300CD6AE5 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2F129CC15A300CD6AE5 /* ChatsView.swift */; };
+		0343D2F629CC163D00CD6AE5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2F529CC163D00CD6AE5 /* ProfileView.swift */; };
+		0343D2F829CC164700CD6AE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2F729CC164700CD6AE5 /* SettingsView.swift */; };
+		0343D2FB29CC1D3A00CD6AE5 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FA29CC1D3A00CD6AE5 /* Buttons.swift */; };
+		0343D2FD29CC1D4B00CD6AE5 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */; };
+		0343D2FF29CC1D5200CD6AE5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FE29CC1D5200CD6AE5 /* Menu.swift */; };
+		0343D30329CC224500CD6AE5 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30029CC224500CD6AE5 /* View+Extensions.swift */; };
+		0343D30429CC224500CD6AE5 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30129CC224500CD6AE5 /* Color+Extensions.swift */; };
+		0343D30529CC224500CD6AE5 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30229CC224500CD6AE5 /* Font+Extensions.swift */; };
+		0343D30729CC22CA00CD6AE5 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0343D30629CC22CA00CD6AE5 /* Fonts */; };
+		0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30829CCB5FA00CD6AE5 /* SplashView.swift */; };
+		0343D30C29CCC17000CD6AE5 /* ForogtPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30B29CCC17000CD6AE5 /* ForogtPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +75,33 @@
 		0343D2B029CC087E00CD6AE5 /* FitplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0343D2B429CC087E00CD6AE5 /* FitplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayUITests.swift; sourceTree = "<group>"; };
 		0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0343D2CC29CC099A00CD6AE5 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0343D2CE29CC09A600CD6AE5 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted.swift; sourceTree = "<group>"; };
+		0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutYou.swift; path = Fitplay/Onboarding/AboutYou.swift; sourceTree = SOURCE_ROOT; };
+		0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhoto.swift; sourceTree = "<group>"; };
+		0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWatch.swift; sourceTree = "<group>"; };
+		0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectMusic.swift; sourceTree = "<group>"; };
+		0343D2DC29CC0B5000CD6AE5 /* Premium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
+		0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotions.swift; sourceTree = "<group>"; };
+		0343D2E029CC0C0000CD6AE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourClassesView.swift; sourceTree = "<group>"; };
+		0343D2E429CC0DF300CD6AE5 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailsEditsView.swift; sourceTree = "<group>"; };
+		0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcericesEquipmentView.swift; sourceTree = "<group>"; };
+		0343D2EF29CC159B00CD6AE5 /* ChatHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistoryView.swift; sourceTree = "<group>"; };
+		0343D2F129CC15A300CD6AE5 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		0343D2F529CC163D00CD6AE5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0343D2F729CC164700CD6AE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0343D2FA29CC1D3A00CD6AE5 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		0343D2FE29CC1D5200CD6AE5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0343D30029CC224500CD6AE5 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/View+Extensions.swift"; sourceTree = "<group>"; };
+		0343D30129CC224500CD6AE5 /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/Color+Extensions.swift"; sourceTree = "<group>"; };
+		0343D30229CC224500CD6AE5 /* Font+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Font+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/Font+Extensions.swift"; sourceTree = "<group>"; };
+		0343D30629CC22CA00CD6AE5 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Fonts"; sourceTree = "<group>"; };
+		0343D30829CCB5FA00CD6AE5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0343D30B29CCC17000CD6AE5 /* ForogtPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForogtPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				0343D29329CC087D00CD6AE5 /* Fitplay */,
-				0343D2A929CC087E00CD6AE5 /* FitplayTests */,
-				0343D2B329CC087E00CD6AE5 /* FitplayUITests */,
 				0343D29229CC087D00CD6AE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,11 +150,17 @@
 		0343D29329CC087D00CD6AE5 /* Fitplay */ = {
 			isa = PBXGroup;
 			children = (
-				0343D29429CC087D00CD6AE5 /* FitplayApp.swift */,
-				0343D29629CC087D00CD6AE5 /* ContentView.swift */,
+				0343D2C529CC08B800CD6AE5 /* Test */,
+				0343D2C329CC088700CD6AE5 /* CoreData */,
+				0343D30A29CCC15400CD6AE5 /* Verification */,
 				0343D29829CC087D00CD6AE5 /* Assets.xcassets */,
-				0343D29D29CC087D00CD6AE5 /* Persistence.swift */,
-				0343D29F29CC087D00CD6AE5 /* Fitplay.xcdatamodeld */,
+				0343D30629CC22CA00CD6AE5 /* Fonts */,
+				0343D2F929CC1D0F00CD6AE5 /* Compoents */,
+				0343D2C929CC092C00CD6AE5 /* Views */,
+				0343D2C629CC08DC00CD6AE5 /* Extentions */,
+				0343D2C729CC091100CD6AE5 /* Auth */,
+				0343D2C829CC092300CD6AE5 /* Onboarding */,
+				0343D2C429CC089A00CD6AE5 /* App */,
 				0343D29A29CC087D00CD6AE5 /* Preview Content */,
 			);
 			path = Fitplay;
@@ -131,6 +189,133 @@
 				0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */,
 			);
 			path = FitplayUITests;
+			sourceTree = "<group>";
+		};
+		0343D2C329CC088700CD6AE5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0343D29F29CC087D00CD6AE5 /* Fitplay.xcdatamodeld */,
+				0343D29D29CC087D00CD6AE5 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0343D2C429CC089A00CD6AE5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0343D29429CC087D00CD6AE5 /* FitplayApp.swift */,
+				0343D29629CC087D00CD6AE5 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0343D2C529CC08B800CD6AE5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2B329CC087E00CD6AE5 /* FitplayUITests */,
+				0343D2A929CC087E00CD6AE5 /* FitplayTests */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		0343D2C629CC08DC00CD6AE5 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0343D30129CC224500CD6AE5 /* Color+Extensions.swift */,
+				0343D30229CC224500CD6AE5 /* Font+Extensions.swift */,
+				0343D30029CC224500CD6AE5 /* View+Extensions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		0343D2C729CC091100CD6AE5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2CC29CC099A00CD6AE5 /* Login.swift */,
+				0343D2CE29CC09A600CD6AE5 /* Signup.swift */,
+				0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0343D2C829CC092300CD6AE5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */,
+				0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */,
+				0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */,
+				0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */,
+				0343D2DC29CC0B5000CD6AE5 /* Premium.swift */,
+				0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0343D2C929CC092C00CD6AE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0343D30829CCB5FA00CD6AE5 /* SplashView.swift */,
+				0343D2E029CC0C0000CD6AE5 /* HomeView.swift */,
+				0343D2F429CC162300CD6AE5 /* Profile+Settings */,
+				0343D2F329CC15C300CD6AE5 /* Messaging  */,
+				0343D2EC29CC0EF700CD6AE5 /* WorkoutCategories */,
+				0343D2EE29CC0F6B00CD6AE5 /* CreateClass */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0343D2EC29CC0EF700CD6AE5 /* WorkoutCategories */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2E429CC0DF300CD6AE5 /* TypeView.swift */,
+				0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */,
+			);
+			path = WorkoutCategories;
+			sourceTree = "<group>";
+		};
+		0343D2EE29CC0F6B00CD6AE5 /* CreateClass */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */,
+				0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */,
+			);
+			path = CreateClass;
+			sourceTree = "<group>";
+		};
+		0343D2F329CC15C300CD6AE5 /* Messaging  */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2F129CC15A300CD6AE5 /* ChatsView.swift */,
+				0343D2EF29CC159B00CD6AE5 /* ChatHistoryView.swift */,
+			);
+			path = "Messaging ";
+			sourceTree = "<group>";
+		};
+		0343D2F429CC162300CD6AE5 /* Profile+Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2F529CC163D00CD6AE5 /* ProfileView.swift */,
+				0343D2F729CC164700CD6AE5 /* SettingsView.swift */,
+			);
+			path = "Profile+Settings";
+			sourceTree = "<group>";
+		};
+		0343D2F929CC1D0F00CD6AE5 /* Compoents */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2FA29CC1D3A00CD6AE5 /* Buttons.swift */,
+				0343D2FE29CC1D5200CD6AE5 /* Menu.swift */,
+				0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */,
+			);
+			path = Compoents;
+			sourceTree = "<group>";
+		};
+		0343D30A29CCC15400CD6AE5 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				0343D30B29CCC17000CD6AE5 /* ForogtPasswordView.swift */,
+			);
+			path = Verification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0343D30729CC22CA00CD6AE5 /* Fonts in Resources */,
 				0343D29C29CC087D00CD6AE5 /* Preview Assets.xcassets in Resources */,
 				0343D29929CC087D00CD6AE5 /* Assets.xcassets in Resources */,
 			);
@@ -263,10 +449,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0343D2DF29CC0B7700CD6AE5 /* Promotions.swift in Sources */,
+				0343D2D129CC0A0100CD6AE5 /* GettingStarted.swift in Sources */,
+				0343D30429CC224500CD6AE5 /* Color+Extensions.swift in Sources */,
+				0343D2F029CC159B00CD6AE5 /* ChatHistoryView.swift in Sources */,
+				0343D2D529CC0ABF00CD6AE5 /* AboutYou.swift in Sources */,
+				0343D2D929CC0B1400CD6AE5 /* ConnectWatch.swift in Sources */,
+				0343D30C29CCC17000CD6AE5 /* ForogtPasswordView.swift in Sources */,
+				0343D2DD29CC0B5000CD6AE5 /* Premium.swift in Sources */,
+				0343D2D729CC0AE100CD6AE5 /* ProfilePhoto.swift in Sources */,
+				0343D2E129CC0C0000CD6AE5 /* HomeView.swift in Sources */,
+				0343D2CF29CC09A600CD6AE5 /* Signup.swift in Sources */,
+				0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */,
+				0343D30529CC224500CD6AE5 /* Font+Extensions.swift in Sources */,
+				0343D2F229CC15A300CD6AE5 /* ChatsView.swift in Sources */,
+				0343D2F629CC163D00CD6AE5 /* ProfileView.swift in Sources */,
+				0343D2FB29CC1D3A00CD6AE5 /* Buttons.swift in Sources */,
+				0343D2E529CC0DF300CD6AE5 /* TypeView.swift in Sources */,
+				0343D2E929CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift in Sources */,
+				0343D2FF29CC1D5200CD6AE5 /* Menu.swift in Sources */,
+				0343D2E329CC0DD500CD6AE5 /* YourClassesView.swift in Sources */,
+				0343D2FD29CC1D4B00CD6AE5 /* Timer.swift in Sources */,
 				0343D29E29CC087D00CD6AE5 /* Persistence.swift in Sources */,
 				0343D2A129CC087D00CD6AE5 /* Fitplay.xcdatamodeld in Sources */,
+				0343D2CD29CC099A00CD6AE5 /* Login.swift in Sources */,
+				0343D2E729CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift in Sources */,
 				0343D29729CC087D00CD6AE5 /* ContentView.swift in Sources */,
+				0343D30329CC224500CD6AE5 /* View+Extensions.swift in Sources */,
 				0343D29529CC087D00CD6AE5 /* FitplayApp.swift in Sources */,
+				0343D2F829CC164700CD6AE5 /* SettingsView.swift in Sources */,
+				0343D2DB29CC0B3100CD6AE5 /* ConnectMusic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
