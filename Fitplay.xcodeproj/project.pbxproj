@@ -37,9 +37,6 @@
 		0343D2FB29CC1D3A00CD6AE5 /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FA29CC1D3A00CD6AE5 /* Playing.swift */; };
 		0343D2FD29CC1D4B00CD6AE5 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */; };
 		0343D2FF29CC1D5200CD6AE5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FE29CC1D5200CD6AE5 /* Menu.swift */; };
-		0343D30329CC224500CD6AE5 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30029CC224500CD6AE5 /* View+Extensions.swift */; };
-		0343D30429CC224500CD6AE5 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30129CC224500CD6AE5 /* Color+Extensions.swift */; };
-		0343D30529CC224500CD6AE5 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30229CC224500CD6AE5 /* Font+Extensions.swift */; };
 		0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30829CCB5FA00CD6AE5 /* SplashView.swift */; };
 		0343D30C29CCC17000CD6AE5 /* ForogtPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30B29CCC17000CD6AE5 /* ForogtPasswordView.swift */; };
 		0360C56829CE699F007E0417 /* Paused.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56729CE699F007E0417 /* Paused.swift */; };
@@ -78,6 +75,9 @@
 		0360C59929CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C57D29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf */; };
 		0360C59A29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C57D29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf */; };
 		0360C59B29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C57D29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf */; };
+		0360C5A229CF3983007E0417 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C5A129CF3983007E0417 /* Color+Extensions.swift */; };
+		0360C5A429CF39AD007E0417 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C5A329CF39AD007E0417 /* Font+Extensions.swift */; };
+		0360C5A629CF3A05007E0417 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C5A529CF3A05007E0417 /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,9 +131,6 @@
 		0343D2FA29CC1D3A00CD6AE5 /* Playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
 		0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		0343D2FE29CC1D5200CD6AE5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		0343D30029CC224500CD6AE5 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/View+Extensions.swift"; sourceTree = "<group>"; };
-		0343D30129CC224500CD6AE5 /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/Color+Extensions.swift"; sourceTree = "<group>"; };
-		0343D30229CC224500CD6AE5 /* Font+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Font+Extensions.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Scorpus’s MacBook Air/AuthentiicIOS-0-4.01-main/Authentiic/Extensions/Font+Extensions.swift"; sourceTree = "<group>"; };
 		0343D30829CCB5FA00CD6AE5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0343D30B29CCC17000CD6AE5 /* ForogtPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForogtPasswordView.swift; sourceTree = "<group>"; };
 		0360C56729CE699F007E0417 /* Paused.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paused.swift; sourceTree = "<group>"; };
@@ -153,6 +150,9 @@
 		0360C57C29CF3429007E0417 /* SourceSansPro-RyPo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-RyPo.ttf"; sourceTree = "<group>"; };
 		0360C57D29CF3429007E0417 /* SourceSansProSemibold-vaB7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansProSemibold-vaB7.ttf"; sourceTree = "<group>"; };
 		0360C59C29CF353D007E0417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0360C5A129CF3983007E0417 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		0360C5A329CF39AD007E0417 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		0360C5A529CF3A05007E0417 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,9 +273,9 @@
 		0343D2C629CC08DC00CD6AE5 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				0343D30129CC224500CD6AE5 /* Color+Extensions.swift */,
-				0343D30229CC224500CD6AE5 /* Font+Extensions.swift */,
-				0343D30029CC224500CD6AE5 /* View+Extensions.swift */,
+				0360C5A129CF3983007E0417 /* Color+Extensions.swift */,
+				0360C5A329CF39AD007E0417 /* Font+Extensions.swift */,
+				0360C5A529CF3A05007E0417 /* View+Extensions.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -564,7 +564,6 @@
 			files = (
 				0343D2DF29CC0B7700CD6AE5 /* Promotions.swift in Sources */,
 				0343D2D129CC0A0100CD6AE5 /* GettingStarted.swift in Sources */,
-				0343D30429CC224500CD6AE5 /* Color+Extensions.swift in Sources */,
 				0343D2F029CC159B00CD6AE5 /* ChatHistoryView.swift in Sources */,
 				0343D2D529CC0ABF00CD6AE5 /* AboutYou.swift in Sources */,
 				0360C57029CE69E9007E0417 /* AddClass.swift in Sources */,
@@ -577,7 +576,7 @@
 				0360C56829CE699F007E0417 /* Paused.swift in Sources */,
 				0360C56E29CE69D6007E0417 /* SaveChanges.swift in Sources */,
 				0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */,
-				0343D30529CC224500CD6AE5 /* Font+Extensions.swift in Sources */,
+				0360C5A229CF3983007E0417 /* Color+Extensions.swift in Sources */,
 				0360C56C29CE69CC007E0417 /* SaveClasses.swift in Sources */,
 				0360C56A29CE69BC007E0417 /* Rested.swift in Sources */,
 				0343D2F229CC15A300CD6AE5 /* ChatsView.swift in Sources */,
@@ -592,9 +591,10 @@
 				0343D2A129CC087D00CD6AE5 /* Fitplay.xcdatamodeld in Sources */,
 				0343D2CD29CC099A00CD6AE5 /* Login.swift in Sources */,
 				0343D2E729CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift in Sources */,
+				0360C5A629CF3A05007E0417 /* View+Extensions.swift in Sources */,
 				0343D29729CC087D00CD6AE5 /* ContentView.swift in Sources */,
 				0360C57229CE9CBD007E0417 /* ColorGardients.swift in Sources */,
-				0343D30329CC224500CD6AE5 /* View+Extensions.swift in Sources */,
+				0360C5A429CF39AD007E0417 /* Font+Extensions.swift in Sources */,
 				0343D29529CC087D00CD6AE5 /* FitplayApp.swift in Sources */,
 				0343D2F829CC164700CD6AE5 /* SettingsView.swift in Sources */,
 				0343D2DB29CC0B3100CD6AE5 /* ConnectMusic.swift in Sources */,
