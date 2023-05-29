@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>159144489897-v96708f7eehbafokgpgd464i7ea4701u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.159144489897-v96708f7eehbafokgpgd464i7ea4701u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBU6n-OEYZ71oiJgTWCgjdE6CqDEeZx8to</string>
+	<key>GCM_SENDER_ID</key>
+	<string>159144489897</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.Fitplay.Fitplay</string>
+	<key>PROJECT_ID</key>
+	<string>fitplay-43f57</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitplay-43f57.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:159144489897:ios:045cf69009c75057d80ab8</string>
+</dict>
+</plist>

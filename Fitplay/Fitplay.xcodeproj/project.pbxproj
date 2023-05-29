@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0343D29529CC087D00CD6AE5 /* FitplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D29429CC087D00CD6AE5 /* FitplayApp.swift */; };
+		0343D29729CC087D00CD6AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D29629CC087D00CD6AE5 /* ContentView.swift */; };
+		0343D29929CC087D00CD6AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0343D29829CC087D00CD6AE5 /* Assets.xcassets */; };
+		0343D29E29CC087D00CD6AE5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D29D29CC087D00CD6AE5 /* Persistence.swift */; };
+		0343D2A129CC087D00CD6AE5 /* Fitplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0343D29F29CC087D00CD6AE5 /* Fitplay.xcdatamodeld */; };
+		0343D2AB29CC087E00CD6AE5 /* FitplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2AA29CC087E00CD6AE5 /* FitplayTests.swift */; };
+		0343D2B529CC087E00CD6AE5 /* FitplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2B429CC087E00CD6AE5 /* FitplayUITests.swift */; };
+		0343D2B729CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */; };
+		0343D2CD29CC099A00CD6AE5 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2CC29CC099A00CD6AE5 /* Login.swift */; };
+		0343D2CF29CC09A600CD6AE5 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2CE29CC09A600CD6AE5 /* Signup.swift */; };
+		0343D2D129CC0A0100CD6AE5 /* GettingStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */; };
+		0343D2D529CC0ABF00CD6AE5 /* AboutYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */; };
+		0343D2D729CC0AE100CD6AE5 /* ProfilePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */; };
+		0343D2D929CC0B1400CD6AE5 /* ConnectWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */; };
+		0343D2DB29CC0B3100CD6AE5 /* ConnectMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */; };
+		0343D2DD29CC0B5000CD6AE5 /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DC29CC0B5000CD6AE5 /* Premium.swift */; };
+		0343D2DF29CC0B7700CD6AE5 /* Promotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */; };
+		0343D2E129CC0C0000CD6AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E029CC0C0000CD6AE5 /* HomeView.swift */; };
+		0343D2E329CC0DD500CD6AE5 /* YourClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */; };
+		0343D2E529CC0DF300CD6AE5 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E429CC0DF300CD6AE5 /* TypeView.swift */; };
+		0343D2E729CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */; };
+		0343D2E929CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */; };
+		0343D2F629CC163D00CD6AE5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2F529CC163D00CD6AE5 /* ProfileView.swift */; };
+		0343D2F829CC164700CD6AE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2F729CC164700CD6AE5 /* SettingsView.swift */; };
+		0343D2FB29CC1D3A00CD6AE5 /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FA29CC1D3A00CD6AE5 /* Playing.swift */; };
+		0343D2FD29CC1D4B00CD6AE5 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */; };
+		0343D2FF29CC1D5200CD6AE5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D2FE29CC1D5200CD6AE5 /* Menu.swift */; };
+		0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30829CCB5FA00CD6AE5 /* SplashView.swift */; };
+		0343D30C29CCC17000CD6AE5 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343D30B29CCC17000CD6AE5 /* ForgotPassword.swift */; };
+		0360C56829CE699F007E0417 /* Paused.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56729CE699F007E0417 /* Paused.swift */; };
+		0360C56A29CE69BC007E0417 /* Rested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56929CE69BC007E0417 /* Rested.swift */; };
+		0360C56C29CE69CC007E0417 /* SaveClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56B29CE69CC007E0417 /* SaveClasses.swift */; };
+		0360C56E29CE69D6007E0417 /* SaveChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56D29CE69D6007E0417 /* SaveChanges.swift */; };
+		0360C57029CE69E9007E0417 /* AddClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C56F29CE69E9007E0417 /* AddClass.swift */; };
+		0360C57229CE9CBD007E0417 /* ColorGardients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360C57129CE9CBD007E0417 /* ColorGardients.swift */; };
+		0360C5C329D268EB007E0417 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5B729D268EB007E0417 /* SourceSansPro-BoldItalic.ttf */; };
+		0360C5C429D268EB007E0417 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5B829D268EB007E0417 /* SourceSansPro-SemiBold.ttf */; };
+		0360C5C529D268EB007E0417 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5B929D268EB007E0417 /* SourceSansPro-ExtraLight.ttf */; };
+		0360C5C629D268EB007E0417 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BA29D268EB007E0417 /* SourceSansPro-SemiBoldItalic.ttf */; };
+		0360C5C729D268EB007E0417 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BB29D268EB007E0417 /* SourceSansPro-BlackItalic.ttf */; };
+		0360C5C829D268EB007E0417 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BC29D268EB007E0417 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		0360C5C929D268EB007E0417 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BD29D268EB007E0417 /* SourceSansPro-Black.ttf */; };
+		0360C5CA29D268EB007E0417 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BE29D268EB007E0417 /* SourceSansPro-Bold.ttf */; };
+		0360C5CB29D268EB007E0417 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5BF29D268EB007E0417 /* SourceSansPro-Italic.ttf */; };
+		0360C5CC29D268EB007E0417 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5C029D268EB007E0417 /* SourceSansPro-LightItalic.ttf */; };
+		0360C5CD29D268EB007E0417 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5C129D268EB007E0417 /* SourceSansPro-Light.ttf */; };
+		0360C5CE29D268EB007E0417 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360C5C229D268EB007E0417 /* SourceSansPro-Regular.ttf */; };
+		13C17BFA2A169D570077FFA9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C17BF92A169D570077FFA9 /* Fonts.swift */; };
+		3B0D88B529FAE5390011592D /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88AF29FAE5390011592D /* SendMessageView.swift */; };
+		3B0D88B629FAE5390011592D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88B029FAE5390011592D /* ChatsView.swift */; };
+		3B0D88B729FAE5390011592D /* ReceviedMessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88B129FAE5390011592D /* ReceviedMessageItemView.swift */; };
+		3B0D88B829FAE5390011592D /* SendMessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88B229FAE5390011592D /* SendMessageItemView.swift */; };
+		3B0D88B929FAE5390011592D /* ChatListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88B329FAE5390011592D /* ChatListItemView.swift */; };
+		3B0D88BA29FAE5390011592D /* ChatHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88B429FAE5390011592D /* ChatHistoryView.swift */; };
+		3B0D88BC29FAE6E50011592D /* SelectableCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D88BB29FAE6E50011592D /* SelectableCalendarView.swift */; };
+		3B44DD922A13F5670034CF59 /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 3B44DD912A13F5670034CF59 /* CoreXLSX */; };
+		3B44DD942A13F5750034CF59 /* EXERCISE DIRECTORY.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 3B44DD932A13F5750034CF59 /* EXERCISE DIRECTORY.xlsx */; };
+		3B506A412A0A81DA00837424 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B506A402A0A81DA00837424 /* SignInWithApple.swift */; };
+		3B5AC5022A0A9F040085B7F5 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AC5012A0A9F040085B7F5 /* PurchaseManager.swift */; };
+		3B5AC5142A0C57200085B7F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AC5132A0C57200085B7F5 /* GoogleService-Info.plist */; };
+		3B5AC5162A0D212E0085B7F5 /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AC5152A0D212E0085B7F5 /* DragDrop.swift */; };
+		3B5E768329D3EBC600646F9C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E768229D3EBC600646F9C /* Workout.swift */; };
+		3B5E768B29D5A76B00646F9C /* NewWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E768A29D5A76B00646F9C /* NewWorkout.swift */; };
+		3B5E768F29D5A7BF00646F9C /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E768E29D5A7BE00646F9C /* Class.swift */; };
+		3B6123992A04A72B004B100D /* ColorPickerRing in Frameworks */ = {isa = PBXBuildFile; productRef = 3B6123982A04A72B004B100D /* ColorPickerRing */; };
+		3B6664B929FC16B200071583 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 3B6664B829FC16B200071583 /* SpotifyiOS */; };
+		3B6664BF29FC1C4800071583 /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6664BE29FC1C4800071583 /* Spotify.swift */; };
+		3B6664C129FC345400071583 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6664C029FC345400071583 /* AppleMusic.swift */; };
+		3B6664C429FC500900071583 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3B6664C329FC500900071583 /* Kingfisher */; };
+		3B6664C92A0006DA00071583 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6664C82A0006DA00071583 /* Launch Screen.storyboard */; };
+		3BA1E21E29FAEBC500C0599E /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E21D29FAEBC500C0599E /* CustomAlert.swift */; };
+		3BA1E22029FAEBCC00C0599E /* CustomLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E21F29FAEBCC00C0599E /* CustomLoading.swift */; };
+		3BA1E22329FAEBFC00C0599E /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA1E22229FAEBFC00C0599E /* ActivityIndicatorView */; };
+		3BA1E22529FAFDCA00C0599E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E22429FAFDCA00C0599E /* ImagePicker.swift */; };
+		3BE82F1929DDF57200E2B3D2 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE82F1829DDF57200E2B3D2 /* AuthManager.swift */; };
+		3BE82F1C29DDF69900E2B3D2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3BE82F1B29DDF69900E2B3D2 /* FirebaseAuth */; };
+		3BE82F1E29DDF69900E2B3D2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BE82F1D29DDF69900E2B3D2 /* FirebaseFirestore */; };
+		3BE82F2029DDF69900E2B3D2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BE82F1F29DDF69900E2B3D2 /* FirebaseFirestoreSwift */; };
+		3BE82F2229DDF69900E2B3D2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BE82F2129DDF69900E2B3D2 /* FirebaseStorage */; };
+		3BE82F2529DDFA5E00E2B3D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE82F2429DDFA5E00E2B3D2 /* Extensions.swift */; };
+		3BE82F2D29DE164200E2B3D2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE82F2C29DE164200E2B3D2 /* DataManager.swift */; };
+		3BE82F3029DE165600E2B3D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE82F2F29DE165600E2B3D2 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0343D2A729CC087E00CD6AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0343D28929CC087D00CD6AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0343D29029CC087D00CD6AE5;
+			remoteInfo = Fitplay;
+		};
+		0343D2B129CC087E00CD6AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0343D28929CC087D00CD6AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0343D29029CC087D00CD6AE5;
+			remoteInfo = Fitplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0343D29129CC087D00CD6AE5 /* Fitplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343D29429CC087D00CD6AE5 /* FitplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayApp.swift; sourceTree = "<group>"; };
+		0343D29629CC087D00CD6AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0343D29829CC087D00CD6AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0343D29D29CC087D00CD6AE5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0343D2A029CC087D00CD6AE5 /* Fitplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitplay.xcdatamodel; sourceTree = "<group>"; };
+		0343D2A629CC087E00CD6AE5 /* FitplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343D2AA29CC087E00CD6AE5 /* FitplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayTests.swift; sourceTree = "<group>"; };
+		0343D2B029CC087E00CD6AE5 /* FitplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343D2B429CC087E00CD6AE5 /* FitplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayUITests.swift; sourceTree = "<group>"; };
+		0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0343D2CC29CC099A00CD6AE5 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0343D2CE29CC09A600CD6AE5 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted.swift; sourceTree = "<group>"; };
+		0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutYou.swift; path = Fitplay/Onboarding/AboutYou.swift; sourceTree = SOURCE_ROOT; };
+		0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhoto.swift; sourceTree = "<group>"; };
+		0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWatch.swift; sourceTree = "<group>"; };
+		0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectMusic.swift; sourceTree = "<group>"; };
+		0343D2DC29CC0B5000CD6AE5 /* Premium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
+		0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotions.swift; sourceTree = "<group>"; };
+		0343D2E029CC0C0000CD6AE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourClassesView.swift; sourceTree = "<group>"; };
+		0343D2E429CC0DF300CD6AE5 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailsEditsView.swift; sourceTree = "<group>"; };
+		0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcericesEquipmentView.swift; sourceTree = "<group>"; };
+		0343D2F529CC163D00CD6AE5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0343D2F729CC164700CD6AE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0343D2FA29CC1D3A00CD6AE5 /* Playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
+		0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		0343D2FE29CC1D5200CD6AE5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0343D30829CCB5FA00CD6AE5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0343D30B29CCC17000CD6AE5 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		0360C56729CE699F007E0417 /* Paused.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paused.swift; sourceTree = "<group>"; };
+		0360C56929CE69BC007E0417 /* Rested.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rested.swift; sourceTree = "<group>"; };
+		0360C56B29CE69CC007E0417 /* SaveClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveClasses.swift; sourceTree = "<group>"; };
+		0360C56D29CE69D6007E0417 /* SaveChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveChanges.swift; sourceTree = "<group>"; };
+		0360C56F29CE69E9007E0417 /* AddClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClass.swift; sourceTree = "<group>"; };
+		0360C57129CE9CBD007E0417 /* ColorGardients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGardients.swift; sourceTree = "<group>"; };
+		0360C59C29CF353D007E0417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0360C5B729D268EB007E0417 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0360C5B829D268EB007E0417 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		0360C5B929D268EB007E0417 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0360C5BA29D268EB007E0417 /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0360C5BB29D268EB007E0417 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0360C5BC29D268EB007E0417 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		0360C5BD29D268EB007E0417 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		0360C5BE29D268EB007E0417 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		0360C5BF29D268EB007E0417 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		0360C5C029D268EB007E0417 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		0360C5C129D268EB007E0417 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		0360C5C229D268EB007E0417 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		13C17BF92A169D570077FFA9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		3B0D88AF29FAE5390011592D /* SendMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		3B0D88B029FAE5390011592D /* ChatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		3B0D88B129FAE5390011592D /* ReceviedMessageItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceviedMessageItemView.swift; sourceTree = "<group>"; };
+		3B0D88B229FAE5390011592D /* SendMessageItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageItemView.swift; sourceTree = "<group>"; };
+		3B0D88B329FAE5390011592D /* ChatListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListItemView.swift; sourceTree = "<group>"; };
+		3B0D88B429FAE5390011592D /* ChatHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHistoryView.swift; sourceTree = "<group>"; };
+		3B0D88BB29FAE6E50011592D /* SelectableCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableCalendarView.swift; sourceTree = "<group>"; };
+		3B44DD932A13F5750034CF59 /* EXERCISE DIRECTORY.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EXERCISE DIRECTORY.xlsx"; sourceTree = "<group>"; };
+		3B506A3F2A0A815F00837424 /* Fitplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fitplay.entitlements; sourceTree = "<group>"; };
+		3B506A402A0A81DA00837424 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		3B5AC5012A0A9F040085B7F5 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		3B5AC5132A0C57200085B7F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B5AC5152A0D212E0085B7F5 /* DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
+		3B5E768229D3EBC600646F9C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		3B5E768A29D5A76B00646F9C /* NewWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkout.swift; sourceTree = "<group>"; };
+		3B5E768E29D5A7BE00646F9C /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		3B6664BA29FC17D300071583 /* Fitplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitplay-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B6664BE29FC1C4800071583 /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		3B6664C029FC345400071583 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
+		3B6664C82A0006DA00071583 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3BA1E21D29FAEBC500C0599E /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		3BA1E21F29FAEBCC00C0599E /* CustomLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoading.swift; sourceTree = "<group>"; };
+		3BA1E22429FAFDCA00C0599E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3BE82F1829DDF57200E2B3D2 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3BE82F2429DDFA5E00E2B3D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3BE82F2C29DE164200E2B3D2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3BE82F2F29DE165600E2B3D2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0343D28E29CC087D00CD6AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1E22329FAEBFC00C0599E /* ActivityIndicatorView in Frameworks */,
+				3B6664B929FC16B200071583 /* SpotifyiOS in Frameworks */,
+				3B6664C429FC500900071583 /* Kingfisher in Frameworks */,
+				3B44DD922A13F5670034CF59 /* CoreXLSX in Frameworks */,
+				3BE82F1C29DDF69900E2B3D2 /* FirebaseAuth in Frameworks */,
+				3B6123992A04A72B004B100D /* ColorPickerRing in Frameworks */,
+				3BE82F2229DDF69900E2B3D2 /* FirebaseStorage in Frameworks */,
+				3BE82F1E29DDF69900E2B3D2 /* FirebaseFirestore in Frameworks */,
+				3BE82F2029DDF69900E2B3D2 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2A329CC087E00CD6AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2AD29CC087E00CD6AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0343D28829CC087D00CD6AE5 = {
+			isa = PBXGroup;
+			children = (
+				0343D29329CC087D00CD6AE5 /* Fitplay */,
+				0343D29229CC087D00CD6AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0343D29229CC087D00CD6AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0343D29129CC087D00CD6AE5 /* Fitplay.app */,
+				0343D2A629CC087E00CD6AE5 /* FitplayTests.xctest */,
+				0343D2B029CC087E00CD6AE5 /* FitplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0343D29329CC087D00CD6AE5 /* Fitplay */ = {
+			isa = PBXGroup;
+			children = (
+				3B44DD932A13F5750034CF59 /* EXERCISE DIRECTORY.xlsx */,
+				3B506A3F2A0A815F00837424 /* Fitplay.entitlements */,
+				0360C59C29CF353D007E0417 /* Info.plist */,
+				3B5AC5132A0C57200085B7F5 /* GoogleService-Info.plist */,
+				3BE82F2B29DE162900E2B3D2 /* Information */,
+				3BE82F2329DDF97F00E2B3D2 /* Default */,
+				0343D29829CC087D00CD6AE5 /* Assets.xcassets */,
+				0343D2F929CC1D0F00CD6AE5 /* Components */,
+				0343D2C929CC092C00CD6AE5 /* Views */,
+				0343D2C729CC091100CD6AE5 /* Auth */,
+				0343D2C829CC092300CD6AE5 /* Onboarding */,
+				3B6664BD29FC1C2000071583 /* Music */,
+				3BE82F2A29DE15EB00E2B3D2 /* Unused */,
+				3B6664BA29FC17D300071583 /* Fitplay-Bridging-Header.h */,
+			);
+			path = Fitplay;
+			sourceTree = "<group>";
+		};
+		0343D2A929CC087E00CD6AE5 /* FitplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2AA29CC087E00CD6AE5 /* FitplayTests.swift */,
+			);
+			path = FitplayTests;
+			sourceTree = "<group>";
+		};
+		0343D2B329CC087E00CD6AE5 /* FitplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2B429CC087E00CD6AE5 /* FitplayUITests.swift */,
+				0343D2B629CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift */,
+			);
+			path = FitplayUITests;
+			sourceTree = "<group>";
+		};
+		0343D2C329CC088700CD6AE5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0343D29F29CC087D00CD6AE5 /* Fitplay.xcdatamodeld */,
+				0343D29D29CC087D00CD6AE5 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0343D2C529CC08B800CD6AE5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0360C5B629D2689D007E0417 /* Font */,
+				0343D2B329CC087E00CD6AE5 /* FitplayUITests */,
+				0343D2A929CC087E00CD6AE5 /* FitplayTests */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		0343D2C729CC091100CD6AE5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2CC29CC099A00CD6AE5 /* Login.swift */,
+				0343D2CE29CC09A600CD6AE5 /* Signup.swift */,
+				0343D2D029CC0A0100CD6AE5 /* GettingStarted.swift */,
+				3BE82F1829DDF57200E2B3D2 /* AuthManager.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0343D2C829CC092300CD6AE5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2D429CC0ABF00CD6AE5 /* AboutYou.swift */,
+				0343D2D629CC0AE100CD6AE5 /* ProfilePhoto.swift */,
+				0343D2D829CC0B1400CD6AE5 /* ConnectWatch.swift */,
+				0343D2DA29CC0B3100CD6AE5 /* ConnectMusic.swift */,
+				0343D2DC29CC0B5000CD6AE5 /* Premium.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0343D2C929CC092C00CD6AE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2E029CC0C0000CD6AE5 /* HomeView.swift */,
+				3B0D88BB29FAE6E50011592D /* SelectableCalendarView.swift */,
+				0343D2F429CC162300CD6AE5 /* Profile+Settings */,
+				3B0D88AE29FAE5390011592D /* Messaging  */,
+				0343D2EE29CC0F6B00CD6AE5 /* CreateClass */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0343D2EC29CC0EF700CD6AE5 /* WorkoutCategories */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2E829CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift */,
+				0343D2E429CC0DF300CD6AE5 /* TypeView.swift */,
+			);
+			path = WorkoutCategories;
+			sourceTree = "<group>";
+		};
+		0343D2EE29CC0F6B00CD6AE5 /* CreateClass */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2E229CC0DD500CD6AE5 /* YourClassesView.swift */,
+				0343D2E629CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift */,
+				3B5E768229D3EBC600646F9C /* Workout.swift */,
+				3B5E768A29D5A76B00646F9C /* NewWorkout.swift */,
+				3B5AC5152A0D212E0085B7F5 /* DragDrop.swift */,
+			);
+			path = CreateClass;
+			sourceTree = "<group>";
+		};
+		0343D2F429CC162300CD6AE5 /* Profile+Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2F529CC163D00CD6AE5 /* ProfileView.swift */,
+				0343D2F729CC164700CD6AE5 /* SettingsView.swift */,
+			);
+			path = "Profile+Settings";
+			sourceTree = "<group>";
+		};
+		0343D2F929CC1D0F00CD6AE5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1E21D29FAEBC500C0599E /* CustomAlert.swift */,
+				3BA1E21F29FAEBCC00C0599E /* CustomLoading.swift */,
+				0343D2FE29CC1D5200CD6AE5 /* Menu.swift */,
+				0360C57129CE9CBD007E0417 /* ColorGardients.swift */,
+				3BA1E22429FAFDCA00C0599E /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0360C56629CE6981007E0417 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2FA29CC1D3A00CD6AE5 /* Playing.swift */,
+				0360C56729CE699F007E0417 /* Paused.swift */,
+				0360C56929CE69BC007E0417 /* Rested.swift */,
+				0360C56B29CE69CC007E0417 /* SaveClasses.swift */,
+				0360C56D29CE69D6007E0417 /* SaveChanges.swift */,
+				0360C56F29CE69E9007E0417 /* AddClass.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		0360C5B629D2689D007E0417 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0360C5BD29D268EB007E0417 /* SourceSansPro-Black.ttf */,
+				0360C5BB29D268EB007E0417 /* SourceSansPro-BlackItalic.ttf */,
+				0360C5BE29D268EB007E0417 /* SourceSansPro-Bold.ttf */,
+				0360C5B729D268EB007E0417 /* SourceSansPro-BoldItalic.ttf */,
+				0360C5B929D268EB007E0417 /* SourceSansPro-ExtraLight.ttf */,
+				0360C5BC29D268EB007E0417 /* SourceSansPro-ExtraLightItalic.ttf */,
+				0360C5BF29D268EB007E0417 /* SourceSansPro-Italic.ttf */,
+				0360C5C129D268EB007E0417 /* SourceSansPro-Light.ttf */,
+				0360C5C029D268EB007E0417 /* SourceSansPro-LightItalic.ttf */,
+				0360C5C229D268EB007E0417 /* SourceSansPro-Regular.ttf */,
+				0360C5B829D268EB007E0417 /* SourceSansPro-SemiBold.ttf */,
+				0360C5BA29D268EB007E0417 /* SourceSansPro-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3B0D88AE29FAE5390011592D /* Messaging  */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D88AF29FAE5390011592D /* SendMessageView.swift */,
+				3B0D88B029FAE5390011592D /* ChatsView.swift */,
+				3B0D88B129FAE5390011592D /* ReceviedMessageItemView.swift */,
+				3B0D88B229FAE5390011592D /* SendMessageItemView.swift */,
+				3B0D88B329FAE5390011592D /* ChatListItemView.swift */,
+				3B0D88B429FAE5390011592D /* ChatHistoryView.swift */,
+			);
+			path = "Messaging ";
+			sourceTree = "<group>";
+		};
+		3B6664BD29FC1C2000071583 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3B6664BE29FC1C4800071583 /* Spotify.swift */,
+				3B6664C029FC345400071583 /* AppleMusic.swift */,
+				3B506A402A0A81DA00837424 /* SignInWithApple.swift */,
+				3B5AC5012A0A9F040085B7F5 /* PurchaseManager.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		3BE82F2329DDF97F00E2B3D2 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				0343D29429CC087D00CD6AE5 /* FitplayApp.swift */,
+				0343D29629CC087D00CD6AE5 /* ContentView.swift */,
+				0343D30829CCB5FA00CD6AE5 /* SplashView.swift */,
+				3BE82F2429DDFA5E00E2B3D2 /* Extensions.swift */,
+				13C17BF92A169D570077FFA9 /* Fonts.swift */,
+				3B6664C82A0006DA00071583 /* Launch Screen.storyboard */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		3BE82F2A29DE15EB00E2B3D2 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				0343D2DE29CC0B7700CD6AE5 /* Promotions.swift */,
+				0343D2EC29CC0EF700CD6AE5 /* WorkoutCategories */,
+				0343D30B29CCC17000CD6AE5 /* ForgotPassword.swift */,
+				0343D2FC29CC1D4B00CD6AE5 /* Timer.swift */,
+				0360C56629CE6981007E0417 /* Buttons */,
+				0343D2C329CC088700CD6AE5 /* CoreData */,
+				0343D2C529CC08B800CD6AE5 /* Test */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		3BE82F2B29DE162900E2B3D2 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				3BE82F2C29DE164200E2B3D2 /* DataManager.swift */,
+				3BE82F2E29DE164700E2B3D2 /* Objects */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		3BE82F2E29DE164700E2B3D2 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3BE82F2F29DE165600E2B3D2 /* User.swift */,
+				3B5E768E29D5A7BE00646F9C /* Class.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0343D29029CC087D00CD6AE5 /* Fitplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343D2BA29CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "Fitplay" */;
+			buildPhases = (
+				0343D28D29CC087D00CD6AE5 /* Sources */,
+				0343D28E29CC087D00CD6AE5 /* Frameworks */,
+				0343D28F29CC087D00CD6AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitplay;
+			packageProductDependencies = (
+				3BE82F1B29DDF69900E2B3D2 /* FirebaseAuth */,
+				3BE82F1D29DDF69900E2B3D2 /* FirebaseFirestore */,
+				3BE82F1F29DDF69900E2B3D2 /* FirebaseFirestoreSwift */,
+				3BE82F2129DDF69900E2B3D2 /* FirebaseStorage */,
+				3BA1E22229FAEBFC00C0599E /* ActivityIndicatorView */,
+				3B6664B829FC16B200071583 /* SpotifyiOS */,
+				3B6664C329FC500900071583 /* Kingfisher */,
+				3B6123982A04A72B004B100D /* ColorPickerRing */,
+				3B44DD912A13F5670034CF59 /* CoreXLSX */,
+			);
+			productName = Fitplay;
+			productReference = 0343D29129CC087D00CD6AE5 /* Fitplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0343D2A529CC087E00CD6AE5 /* FitplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343D2BD29CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "FitplayTests" */;
+			buildPhases = (
+				0343D2A229CC087E00CD6AE5 /* Sources */,
+				0343D2A329CC087E00CD6AE5 /* Frameworks */,
+				0343D2A429CC087E00CD6AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0343D2A829CC087E00CD6AE5 /* PBXTargetDependency */,
+			);
+			name = FitplayTests;
+			productName = FitplayTests;
+			productReference = 0343D2A629CC087E00CD6AE5 /* FitplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0343D2AF29CC087E00CD6AE5 /* FitplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343D2C029CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "FitplayUITests" */;
+			buildPhases = (
+				0343D2AC29CC087E00CD6AE5 /* Sources */,
+				0343D2AD29CC087E00CD6AE5 /* Frameworks */,
+				0343D2AE29CC087E00CD6AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0343D2B229CC087E00CD6AE5 /* PBXTargetDependency */,
+			);
+			name = FitplayUITests;
+			productName = FitplayUITests;
+			productReference = 0343D2B029CC087E00CD6AE5 /* FitplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0343D28929CC087D00CD6AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0343D29029CC087D00CD6AE5 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					0343D2A529CC087E00CD6AE5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0343D29029CC087D00CD6AE5;
+					};
+					0343D2AF29CC087E00CD6AE5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0343D29029CC087D00CD6AE5;
+					};
+				};
+			};
+			buildConfigurationList = 0343D28C29CC087D00CD6AE5 /* Build configuration list for PBXProject "Fitplay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0343D28829CC087D00CD6AE5;
+			packageReferences = (
+				3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3BA1E22129FAEBFC00C0599E /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				3B6664B729FC16B200071583 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				3B6664C229FC500900071583 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				3B6123972A04A72B004B100D /* XCRemoteSwiftPackageReference "ColorPicker" */,
+				3B44DD902A13F5670034CF59 /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+			);
+			productRefGroup = 0343D29229CC087D00CD6AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0343D29029CC087D00CD6AE5 /* Fitplay */,
+				0343D2A529CC087E00CD6AE5 /* FitplayTests */,
+				0343D2AF29CC087E00CD6AE5 /* FitplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0343D28F29CC087D00CD6AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0360C5CD29D268EB007E0417 /* SourceSansPro-Light.ttf in Resources */,
+				3B44DD942A13F5750034CF59 /* EXERCISE DIRECTORY.xlsx in Resources */,
+				0360C5C529D268EB007E0417 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				0360C5CB29D268EB007E0417 /* SourceSansPro-Italic.ttf in Resources */,
+				3B6664C92A0006DA00071583 /* Launch Screen.storyboard in Resources */,
+				0360C5CE29D268EB007E0417 /* SourceSansPro-Regular.ttf in Resources */,
+				0360C5C729D268EB007E0417 /* SourceSansPro-BlackItalic.ttf in Resources */,
+				0360C5C429D268EB007E0417 /* SourceSansPro-SemiBold.ttf in Resources */,
+				3B5AC5142A0C57200085B7F5 /* GoogleService-Info.plist in Resources */,
+				0360C5C829D268EB007E0417 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				0360C5C329D268EB007E0417 /* SourceSansPro-BoldItalic.ttf in Resources */,
+				0360C5C629D268EB007E0417 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
+				0360C5CA29D268EB007E0417 /* SourceSansPro-Bold.ttf in Resources */,
+				0360C5C929D268EB007E0417 /* SourceSansPro-Black.ttf in Resources */,
+				0343D29929CC087D00CD6AE5 /* Assets.xcassets in Resources */,
+				0360C5CC29D268EB007E0417 /* SourceSansPro-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2A429CC087E00CD6AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2AE29CC087E00CD6AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0343D28D29CC087D00CD6AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343D2DF29CC0B7700CD6AE5 /* Promotions.swift in Sources */,
+				3BE82F2D29DE164200E2B3D2 /* DataManager.swift in Sources */,
+				3B5AC5022A0A9F040085B7F5 /* PurchaseManager.swift in Sources */,
+				0343D2D129CC0A0100CD6AE5 /* GettingStarted.swift in Sources */,
+				0343D2D529CC0ABF00CD6AE5 /* AboutYou.swift in Sources */,
+				3B0D88B629FAE5390011592D /* ChatsView.swift in Sources */,
+				0360C57029CE69E9007E0417 /* AddClass.swift in Sources */,
+				0343D2D929CC0B1400CD6AE5 /* ConnectWatch.swift in Sources */,
+				0343D30C29CCC17000CD6AE5 /* ForgotPassword.swift in Sources */,
+				0343D2DD29CC0B5000CD6AE5 /* Premium.swift in Sources */,
+				0343D2D729CC0AE100CD6AE5 /* ProfilePhoto.swift in Sources */,
+				3B0D88B729FAE5390011592D /* ReceviedMessageItemView.swift in Sources */,
+				3BA1E21E29FAEBC500C0599E /* CustomAlert.swift in Sources */,
+				0343D2E129CC0C0000CD6AE5 /* HomeView.swift in Sources */,
+				3B0D88BC29FAE6E50011592D /* SelectableCalendarView.swift in Sources */,
+				3B0D88B529FAE5390011592D /* SendMessageView.swift in Sources */,
+				0343D2CF29CC09A600CD6AE5 /* Signup.swift in Sources */,
+				0360C56829CE699F007E0417 /* Paused.swift in Sources */,
+				3BA1E22529FAFDCA00C0599E /* ImagePicker.swift in Sources */,
+				3BE82F1929DDF57200E2B3D2 /* AuthManager.swift in Sources */,
+				3BE82F2529DDFA5E00E2B3D2 /* Extensions.swift in Sources */,
+				0360C56E29CE69D6007E0417 /* SaveChanges.swift in Sources */,
+				0343D30929CCB5FA00CD6AE5 /* SplashView.swift in Sources */,
+				0360C56C29CE69CC007E0417 /* SaveClasses.swift in Sources */,
+				3BE82F3029DE165600E2B3D2 /* User.swift in Sources */,
+				0360C56A29CE69BC007E0417 /* Rested.swift in Sources */,
+				3B506A412A0A81DA00837424 /* SignInWithApple.swift in Sources */,
+				0343D2F629CC163D00CD6AE5 /* ProfileView.swift in Sources */,
+				0343D2FB29CC1D3A00CD6AE5 /* Playing.swift in Sources */,
+				0343D2E529CC0DF300CD6AE5 /* TypeView.swift in Sources */,
+				0343D2E929CC0E8F00CD6AE5 /* ExcericesEquipmentView.swift in Sources */,
+				3B6664BF29FC1C4800071583 /* Spotify.swift in Sources */,
+				3B0D88B829FAE5390011592D /* SendMessageItemView.swift in Sources */,
+				0343D2FF29CC1D5200CD6AE5 /* Menu.swift in Sources */,
+				3B6664C129FC345400071583 /* AppleMusic.swift in Sources */,
+				0343D2E329CC0DD500CD6AE5 /* YourClassesView.swift in Sources */,
+				3B5E768B29D5A76B00646F9C /* NewWorkout.swift in Sources */,
+				0343D2FD29CC1D4B00CD6AE5 /* Timer.swift in Sources */,
+				0343D29E29CC087D00CD6AE5 /* Persistence.swift in Sources */,
+				3B0D88BA29FAE5390011592D /* ChatHistoryView.swift in Sources */,
+				3B5E768F29D5A7BF00646F9C /* Class.swift in Sources */,
+				0343D2A129CC087D00CD6AE5 /* Fitplay.xcdatamodeld in Sources */,
+				3B0D88B929FAE5390011592D /* ChatListItemView.swift in Sources */,
+				3BA1E22029FAEBCC00C0599E /* CustomLoading.swift in Sources */,
+				0343D2CD29CC099A00CD6AE5 /* Login.swift in Sources */,
+				0343D2E729CC0E4F00CD6AE5 /* ClassDetailsEditsView.swift in Sources */,
+				3B5AC5162A0D212E0085B7F5 /* DragDrop.swift in Sources */,
+				0343D29729CC087D00CD6AE5 /* ContentView.swift in Sources */,
+				0360C57229CE9CBD007E0417 /* ColorGardients.swift in Sources */,
+				3B5E768329D3EBC600646F9C /* Workout.swift in Sources */,
+				0343D29529CC087D00CD6AE5 /* FitplayApp.swift in Sources */,
+				0343D2F829CC164700CD6AE5 /* SettingsView.swift in Sources */,
+				13C17BFA2A169D570077FFA9 /* Fonts.swift in Sources */,
+				0343D2DB29CC0B3100CD6AE5 /* ConnectMusic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2A229CC087E00CD6AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343D2AB29CC087E00CD6AE5 /* FitplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343D2AC29CC087E00CD6AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343D2B729CC087E00CD6AE5 /* FitplayUITestsLaunchTests.swift in Sources */,
+				0343D2B529CC087E00CD6AE5 /* FitplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0343D2A829CC087E00CD6AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0343D29029CC087D00CD6AE5 /* Fitplay */;
+			targetProxy = 0343D2A729CC087E00CD6AE5 /* PBXContainerItemProxy */;
+		};
+		0343D2B229CC087E00CD6AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0343D29029CC087D00CD6AE5 /* Fitplay */;
+			targetProxy = 0343D2B129CC087E00CD6AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0343D2B829CC087E00CD6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0343D2B929CC087E00CD6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0343D2BB29CC087E00CD6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fitplay/Fitplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Q4GY5MKJ3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitplay/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We Need Permission To Connect You To Apple Music";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Fitplay Must Access The Camera To Continue";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.01;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = slayterjameson.Fitplay.Fitplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitplay/Fitplay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0343D2BC29CC087E00CD6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fitplay/Fitplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Q4GY5MKJ3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitplay/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We Need Permission To Connect You To Apple Music";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Fitplay Must Access The Camera To Continue";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.01;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = slayterjameson.Fitplay.Fitplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitplay/Fitplay-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0343D2BE29CC087E00CD6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Fitplay.FitplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitplay";
+			};
+			name = Debug;
+		};
+		0343D2BF29CC087E00CD6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Fitplay.FitplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitplay";
+			};
+			name = Release;
+		};
+		0343D2C129CC087E00CD6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Fitplay.FitplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitplay;
+			};
+			name = Debug;
+		};
+		0343D2C229CC087E00CD6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Fitplay.FitplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0343D28C29CC087D00CD6AE5 /* Build configuration list for PBXProject "Fitplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343D2B829CC087E00CD6AE5 /* Debug */,
+				0343D2B929CC087E00CD6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343D2BA29CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "Fitplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343D2BB29CC087E00CD6AE5 /* Debug */,
+				0343D2BC29CC087E00CD6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343D2BD29CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "FitplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343D2BE29CC087E00CD6AE5 /* Debug */,
+				0343D2BF29CC087E00CD6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343D2C029CC087E00CD6AE5 /* Build configuration list for PBXNativeTarget "FitplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343D2C129CC087E00CD6AE5 /* Debug */,
+				0343D2C229CC087E00CD6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B44DD902A13F5670034CF59 /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		3B6123972A04A72B004B100D /* XCRemoteSwiftPackageReference "ColorPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hendriku/ColorPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		3B6664B729FC16B200071583 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3B6664C229FC500900071583 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3BA1E22129FAEBFC00C0599E /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B44DD912A13F5670034CF59 /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B44DD902A13F5670034CF59 /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+		3B6123982A04A72B004B100D /* ColorPickerRing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B6123972A04A72B004B100D /* XCRemoteSwiftPackageReference "ColorPicker" */;
+			productName = ColorPickerRing;
+		};
+		3B6664B829FC16B200071583 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B6664B729FC16B200071583 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+		3B6664C329FC500900071583 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B6664C229FC500900071583 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		3BA1E22229FAEBFC00C0599E /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BA1E22129FAEBFC00C0599E /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		3BE82F1B29DDF69900E2B3D2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3BE82F1D29DDF69900E2B3D2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3BE82F1F29DDF69900E2B3D2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3BE82F2129DDF69900E2B3D2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BE82F1A29DDF69900E2B3D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0343D29F29CC087D00CD6AE5 /* Fitplay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0343D2A029CC087D00CD6AE5 /* Fitplay.xcdatamodel */,
+			);
+			currentVersion = 0343D2A029CC087D00CD6AE5 /* Fitplay.xcdatamodel */;
+			path = Fitplay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0343D28929CC087D00CD6AE5 /* Project object */;
+}

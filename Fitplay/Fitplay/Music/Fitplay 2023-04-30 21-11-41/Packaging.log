@@ -1,0 +1,226 @@
+2023-05-01 01:11:24 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x46123add0; archive(resolved)="<IDEArchive: 0x6000befc6a00>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x46123add0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2adfe92c0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x444629570; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x44510c2f0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x459212c90; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x468820ef0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x459266240; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x462a0dd10; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fe3629d0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001699d80; teamID='VUYKSKY97G', teamName='Samuel Vulakh (Individual)', teamType='Individual', username='shmuel.vulakh@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fe3d91c0; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="(null)">
+	<IDEDistributionContext: 0x2e5e11510; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="(null)">
+	<IDEDistributionContext: 0x444657360; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="(null)">
+	<IDEDistributionContext: 0x44463a620; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000d49739e0>", team="(null)">
+	<IDEDistributionContext: 0x444638330; archive = "<IDEArchive: 0x6000befc6a00>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x46123add0>
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCopyItemStep
+2023-05-01 01:11:24 +0000  Running /usr/bin/ditto '-V' '/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app'
+2023-05-01 01:11:24 +0000  >>> Copying /Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app 
+2023-05-01 01:11:24 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-05-01 01:11:24 +0000  6989 bytes for ./_CodeSignature/CodeResources
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-BlackItalic.ttf ... 
+2023-05-01 01:11:24 +0000  108420 bytes for ./SourceSansPro-BlackItalic.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-SemiBoldItalic.ttf ... 
+2023-05-01 01:11:24 +0000  109264 bytes for ./SourceSansPro-SemiBoldItalic.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-Regular.ttf ... 
+2023-05-01 01:11:24 +0000  248132 bytes for ./SourceSansPro-Regular.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-Bold.ttf ... 
+2023-05-01 01:11:24 +0000  247412 bytes for ./SourceSansPro-Bold.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-LightItalic.ttf ... 
+2023-05-01 01:11:24 +0000  110176 bytes for ./SourceSansPro-LightItalic.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-Light.ttf ... 
+2023-05-01 01:11:24 +0000  246624 bytes for ./SourceSansPro-Light.ttf
+2023-05-01 01:11:24 +0000  copying file ./GoogleService-Info.plist ... 
+2023-05-01 01:11:24 +0000  659 bytes for ./GoogleService-Info.plist
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-Black.ttf ... 
+2023-05-01 01:11:24 +0000  247608 bytes for ./SourceSansPro-Black.ttf
+2023-05-01 01:11:24 +0000  copying file ./Assets.car ... 
+2023-05-01 01:11:24 +0000  322671 bytes for ./Assets.car
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-ExtraLight.ttf ... 
+2023-05-01 01:11:24 +0000  247212 bytes for ./SourceSansPro-ExtraLight.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-BoldItalic.ttf ... 
+2023-05-01 01:11:24 +0000  109148 bytes for ./SourceSansPro-BoldItalic.ttf
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-SemiBold.ttf ... 
+2023-05-01 01:11:24 +0000  247892 bytes for ./SourceSansPro-SemiBold.ttf
+2023-05-01 01:11:24 +0000  copying file ./Frameworks/SpotifyiOS.framework/_CodeSignature/CodeResources ... 
+2023-05-01 01:11:24 +0000  1798 bytes for ./Frameworks/SpotifyiOS.framework/_CodeSignature/CodeResources
+2023-05-01 01:11:24 +0000  copying file ./Frameworks/SpotifyiOS.framework/SpotifyiOS ... 
+2023-05-01 01:11:24 +0000  782160 bytes for ./Frameworks/SpotifyiOS.framework/SpotifyiOS
+2023-05-01 01:11:24 +0000  copying file ./Frameworks/SpotifyiOS.framework/Info.plist ... 
+2023-05-01 01:11:24 +0000  702 bytes for ./Frameworks/SpotifyiOS.framework/Info.plist
+2023-05-01 01:11:24 +0000  copying file ./embedded.mobileprovision ... 
+2023-05-01 01:11:24 +0000  16471 bytes for ./embedded.mobileprovision
+2023-05-01 01:11:24 +0000  copying file ./Info.plist ... 
+2023-05-01 01:11:24 +0000  1917 bytes for ./Info.plist
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-ExtraLightItalic.ttf ... 
+2023-05-01 01:11:24 +0000  109552 bytes for ./SourceSansPro-ExtraLightItalic.ttf
+2023-05-01 01:11:24 +0000  copying file ./Fitplay ... 
+2023-05-01 01:11:24 +0000  10040880 bytes for ./Fitplay
+2023-05-01 01:11:24 +0000  copying file ./SourceSansPro-Italic.ttf ... 
+2023-05-01 01:11:24 +0000  109456 bytes for ./SourceSansPro-Italic.ttf
+2023-05-01 01:11:24 +0000  copying file ./PkgInfo ... 
+2023-05-01 01:11:24 +0000  8 bytes for ./PkgInfo
+2023-05-01 01:11:24 +0000  copying file ./Fitplay.momd/VersionInfo.plist ... 
+2023-05-01 01:11:24 +0000  195 bytes for ./Fitplay.momd/VersionInfo.plist
+2023-05-01 01:11:24 +0000  copying file ./Fitplay.momd/Fitplay.mom ... 
+2023-05-01 01:11:24 +0000  1312 bytes for ./Fitplay.momd/Fitplay.mom
+2023-05-01 01:11:24 +0000  copying file ./Fitplay.momd/Fitplay.omo ... 
+2023-05-01 01:11:24 +0000  1944 bytes for ./Fitplay.momd/Fitplay.omo
+2023-05-01 01:11:24 +0000  /usr/bin/ditto exited with 0
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-05-01 01:11:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x6000e2ff3c00; bundleID='com.spotify.sdk.ios', path='<DVTFilePath:0x60007609b250:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086d684b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce7440; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='(null)', teamID='VUYKSKY97G', identifier='com.spotify.sdk.ios', executablePath='<DVTFilePath:0x6000760185b0:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS'>', hardenedRuntime='0'>'>
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionSymbolsStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionAppThinningStep
+2023-05-01 01:11:24 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionArchThinningStep
+2023-05-01 01:11:24 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS' '-verify_arch' 'arm64e'
+2023-05-01 01:11:24 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-01 01:11:24 +0000  Skipping architecture thinning for item "SpotifyiOS" because arch "arm64e" wasn't found
+2023-05-01 01:11:24 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Fitplay' '-verify_arch' 'arm64e'
+2023-05-01 01:11:24 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-01 01:11:24 +0000  Skipping architecture thinning for item "Fitplay" because arch "arm64e" wasn't found
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionODRStep
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-05-01 01:11:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000e2ff3c00; bundleID='com.spotify.sdk.ios', path='<DVTFilePath:0x60007609b250:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086d684b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce67e0; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='(null)', teamID='VUYKSKY97G', identifier='com.spotify.sdk.ios', executablePath='<DVTFilePath:0x6000760185b0:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS'>', hardenedRuntime='0'>'>
+2023-05-01 01:11:24 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app'
+2023-05-01 01:11:24 +0000  /usr/bin/xattr exited with 0
+2023-05-01 01:11:24 +0000  Processing step: IDEDistributionCodesignStep
+2023-05-01 01:11:24 +0000  Entitlements for <IDEDistributionItem: 0x6000e2ff3c00; bundleID='com.spotify.sdk.ios', path='<DVTFilePath:0x60007609b250:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086d684b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce7de0; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='(null)', teamID='VUYKSKY97G', identifier='com.spotify.sdk.ios', executablePath='<DVTFilePath:0x6000760185b0:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS'>', hardenedRuntime='0'>'>: {
+}
+2023-05-01 01:11:24 +0000  Entitlements for <IDEDistributionItem: 0x6000e2ff3c00; bundleID='com.spotify.sdk.ios', path='<DVTFilePath:0x60007609b250:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086d684b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce4790; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='(null)', teamID='VUYKSKY97G', identifier='com.spotify.sdk.ios', executablePath='<DVTFilePath:0x6000760185b0:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-01 01:11:24 +0000  Writing entitlements for <IDEDistributionItem: 0x6000e2ff3c00; bundleID='com.spotify.sdk.ios', path='<DVTFilePath:0x60007609b250:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086d684b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce4630; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='(null)', teamID='VUYKSKY97G', identifier='com.spotify.sdk.ios', executablePath='<DVTFilePath:0x6000760185b0:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS'>', hardenedRuntime='0'>'> to: /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/entitlements~~~P5TgWG
+2023-05-01 01:11:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D' '--entitlements' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/entitlements~~~P5TgWG' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Frameworks/SpotifyiOS.framework'
+2023-05-01 01:11:25 +0000  /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Frameworks/SpotifyiOS.framework: replacing existing signature
+2023-05-01 01:11:25 +0000  /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Frameworks/SpotifyiOS.framework: signed bundle with Mach-O universal (armv7 arm64) [com.spotify.sdk.ios]
+2023-05-01 01:11:25 +0000  /usr/bin/codesign exited with 0
+2023-05-01 01:11:25 +0000  Entitlements for <IDEDistributionItem: 0x6000bef10300; bundleID='io.Fitplay.Fitplay', path='<DVTFilePath:0x60007609b790:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086a618b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bc080b0; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='{
+    "application-identifier" = "VUYKSKY97G.io.Fitplay.Fitplay";
+    "com.apple.developer.team-identifier" = VUYKSKY97G;
+    "get-task-allow" = 1;
+}', teamID='VUYKSKY97G', identifier='io.Fitplay.Fitplay', executablePath='<DVTFilePath:0x6000e2ff3e40:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Fitplay'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "VUYKSKY97G.io.Fitplay.Fitplay";
+    "com.apple.developer.team-identifier" = VUYKSKY97G;
+    "get-task-allow" = 1;
+}
+2023-05-01 01:11:25 +0000  Entitlements for <IDEDistributionItem: 0x6000bef10300; bundleID='io.Fitplay.Fitplay', path='<DVTFilePath:0x60007609b790:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086a618b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bc61810; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='{
+    "application-identifier" = "VUYKSKY97G.io.Fitplay.Fitplay";
+    "com.apple.developer.team-identifier" = VUYKSKY97G;
+    "get-task-allow" = 1;
+}', teamID='VUYKSKY97G', identifier='io.Fitplay.Fitplay', executablePath='<DVTFilePath:0x6000e2ff3e40:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Fitplay'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "VUYKSKY97G.io.Fitplay.Fitplay";
+    "com.apple.developer.team-identifier" = VUYKSKY97G;
+    "get-task-allow" = 1;
+}
+2023-05-01 01:11:25 +0000  Writing entitlements for <IDEDistributionItem: 0x6000bef10300; bundleID='io.Fitplay.Fitplay', path='<DVTFilePath:0x60007609b790:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600086a618b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006bce7de0; name='Apple Development: Samuel Vulakh (5D49C56KFF)', hash='76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D', serialNumber='7609024824B80C1D04B16B8A3B9D5AE4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-12-13 18:25:25 +0000''>', entitlements='{
+    "application-identifier" = "VUYKSKY97G.io.Fitplay.Fitplay";
+    "com.apple.developer.team-identifier" = VUYKSKY97G;
+    "get-task-allow" = 1;
+}', teamID='VUYKSKY97G', identifier='io.Fitplay.Fitplay', executablePath='<DVTFilePath:0x6000e2ff3e40:'/Users/samuelvulakh/Library/Developer/Xcode/Archives/2023-04-30/Fitplay 4-30-23, 9.09 PM.xcarchive/Products/Applications/Fitplay.app/Fitplay'>', hardenedRuntime='0'>'> to: /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/entitlements~~~4Bfao0
+2023-05-01 01:11:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '76FC480C1ADF9F6D0EAF6FF03D8FD691434AE15D' '--entitlements' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/entitlements~~~4Bfao0' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app'
+2023-05-01 01:11:25 +0000  /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app: replacing existing signature
+2023-05-01 01:11:25 +0000  /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app: signed app bundle with Mach-O thin (arm64) [io.Fitplay.Fitplay]
+2023-05-01 01:11:25 +0000  /usr/bin/codesign exited with 0
+2023-05-01 01:11:25 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-05-01 01:11:25 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-01 01:11:25 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-01 01:11:25 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-05-01 01:11:25 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root' '/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Packages/Fitplay.ipa'
+2023-05-01 01:11:25 +0000  >>> Copying /var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root 
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/_CodeSignature/CodeResources ... 
+2023-05-01 01:11:25 +0000  6989 bytes for ./Payload/Fitplay.app/_CodeSignature/CodeResources
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-BlackItalic.ttf ... 
+2023-05-01 01:11:25 +0000  108420 bytes for ./Payload/Fitplay.app/SourceSansPro-BlackItalic.ttf
+copying file ./Payload/Fitplay.app/SourceSansPro-SemiBoldItalic.ttf ... 
+2023-05-01 01:11:25 +0000  109264 bytes for ./Payload/Fitplay.app/SourceSansPro-SemiBoldItalic.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-Regular.ttf ... 
+2023-05-01 01:11:25 +0000  248132 bytes for ./Payload/Fitplay.app/SourceSansPro-Regular.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-Bold.ttf ... 
+2023-05-01 01:11:25 +0000  247412 bytes for ./Payload/Fitplay.app/SourceSansPro-Bold.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-LightItalic.ttf ... 
+2023-05-01 01:11:25 +0000  110176 bytes for ./Payload/Fitplay.app/SourceSansPro-LightItalic.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-Light.ttf ... 
+2023-05-01 01:11:25 +0000  246624 bytes for ./Payload/Fitplay.app/SourceSansPro-Light.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/GoogleService-Info.plist ... 
+2023-05-01 01:11:25 +0000  659 bytes for ./Payload/Fitplay.app/GoogleService-Info.plist
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-Black.ttf ... 
+2023-05-01 01:11:25 +0000  247608 bytes for ./Payload/Fitplay.app/SourceSansPro-Black.ttf
+copying file ./Payload/Fitplay.app/Assets.car ... 
+2023-05-01 01:11:25 +0000  322671 bytes for ./Payload/Fitplay.app/Assets.car
+copying file ./Payload/Fitplay.app/SourceSansPro-ExtraLight.ttf ... 
+2023-05-01 01:11:25 +0000  247212 bytes for ./Payload/Fitplay.app/SourceSansPro-ExtraLight.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-BoldItalic.ttf ... 
+2023-05-01 01:11:25 +0000  109148 bytes for ./Payload/Fitplay.app/SourceSansPro-BoldItalic.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-SemiBold.ttf ... 
+2023-05-01 01:11:25 +0000  247892 bytes for ./Payload/Fitplay.app/SourceSansPro-SemiBold.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/_CodeSignature/CodeResources ... 
+2023-05-01 01:11:25 +0000  1798 bytes for ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/_CodeSignature/CodeResources
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS ... 
+2023-05-01 01:11:25 +0000  782464 bytes for ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/SpotifyiOS
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/Info.plist ... 
+2023-05-01 01:11:25 +0000  702 bytes for ./Payload/Fitplay.app/Frameworks/SpotifyiOS.framework/Info.plist
+copying file ./Payload/Fitplay.app/embedded.mobileprovision ... 
+2023-05-01 01:11:25 +0000  18608 bytes for ./Payload/Fitplay.app/embedded.mobileprovision
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Info.plist ... 
+2023-05-01 01:11:25 +0000  1917 bytes for ./Payload/Fitplay.app/Info.plist
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-ExtraLightItalic.ttf ... 
+2023-05-01 01:11:25 +0000  109552 bytes for ./Payload/Fitplay.app/SourceSansPro-ExtraLightItalic.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Fitplay ... 
+2023-05-01 01:11:25 +0000  10040880 bytes for ./Payload/Fitplay.app/Fitplay
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/SourceSansPro-Italic.ttf ... 
+2023-05-01 01:11:25 +0000  109456 bytes for ./Payload/Fitplay.app/SourceSansPro-Italic.ttf
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/PkgInfo ... 
+8 bytes for ./Payload/Fitplay.app/PkgInfo
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Fitplay.momd/VersionInfo.plist ... 
+2023-05-01 01:11:25 +0000  195 bytes for ./Payload/Fitplay.app/Fitplay.momd/VersionInfo.plist
+copying file ./Payload/Fitplay.app/Fitplay.momd/Fitplay.mom ... 
+2023-05-01 01:11:25 +0000  1312 bytes for ./Payload/Fitplay.app/Fitplay.momd/Fitplay.mom
+2023-05-01 01:11:25 +0000  copying file ./Payload/Fitplay.app/Fitplay.momd/Fitplay.omo ... 
+2023-05-01 01:11:25 +0000  1944 bytes for ./Payload/Fitplay.app/Fitplay.momd/Fitplay.omo
+2023-05-01 01:11:25 +0000  /usr/bin/ditto exited with 0
+2023-05-01 01:11:25 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-05-01 01:11:25 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-05-01 01:11:25 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-05-01 01:11:25 +0000  IDEDistributionItem init <DVTFilePath:0x600076090cb0:'/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app/Frameworks/SpotifyiOS.framework'>
+2023-05-01 01:11:25 +0000  IDEDistributionItem init <DVTFilePath:0x6000760a6a00:'/var/folders/qy/_svw728n3pjbj15nlyrcjqjh0000gn/T/XcodeDistPipeline.~~~ah3LsS/Root/Payload/Fitplay.app'>
+2023-05-01 01:11:25 +0000  Processing step: IDEDistributionCreateManifestStep
